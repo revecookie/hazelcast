@@ -65,7 +65,7 @@ public class ClusterNode
 
 	}
 
-	public static class User implements Serializable{
+	public static class User implements Serializable {
 		public String name;
 		public String pass;
 
