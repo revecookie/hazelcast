@@ -17,12 +17,5 @@
         <property name="hibernate.jdbc.use_streams_for_binary">true</property>
         <property name="hibernate.jdbc.wrap_result_sets">true</property>
 
-
-
-        <!--<mapping resource="hibernate-mapping/availability-hazelcast/MarkupsEntity.hbm.xml"/>-->
-        <!--<mapping resource="hibernate-mapping/availability-hazelcast/CustomMarkupsEntity.hbm.xml"/>-->
-        <!--<mapping resource="hibernate-mapping/availability-hazelcast/CustomMarkupsPriceRangeEntity.hbm.xml"/>-->
-        <mapping resource="hibernate-mapping/availability-hazelcast/DSCurrency.hbm.xml"/>
-
     </session-factory>
 </hibernate-configuration>

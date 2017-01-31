@@ -2,20 +2,20 @@
            xmlns="http://www.hazelcast.com/schema/config"
            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <group>
-        <name>lalalalalalala</name>
-        <password>reveka</password>
+        <name>testGroup</name>
+        <password>test</password>
     </group>
 
     <network>
         <join>
             <multicast enabled="false"/>
             <tcp-ip enabled="true">
-                <interface>192.168.59.127</interface>
+                <interface>127.0.0.1</interface>
             </tcp-ip>
         </join>
 
         <interfaces enabled="true">
-            <interface>192.168.59.*</interface>
+            <interface>127.0.0.*</interface>
         </interfaces>
 
     </network>
